@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <saveConfigpath />
+  <time />
+  <domain>https://115.159.37.188/?c=index&amp;a=goodsshow&amp;id=1</domain>
+  <uri />
+  <pname />
+  <testPayload />
+  <port>80</port>
+  <maxTime>5</maxTime>
+  <injectType>UnKnow</injectType>
+  <dbType>UnKnow</dbType>
+  <timeOut>10</timeOut>
+  <threadSize>1</threadSize>
+  <reTry>2</reTry>
+  <encoding>自动识别</encoding>
+  <cmd_encoding>UTF-8</cmd_encoding>
+  <request>GET /?c=index&amp;a=goodsshow&amp;id=10 HTTP/1.1
+Host: 115.159.37.188
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
+Accept-Encoding: gzip, deflate
+Connection: close
+Referer: https://115.159.37.188/
+Cookie: PHPSESSID=6qudill0lrvni6hm3spur8leg2; UM_distinctid=17ef6d3403c66-0722837f59e4ab-4c3e247b-100200-17ef6d3403e120; CNZZDATA1256439308=1477072677-1644818545-%7C1644818545; checkui=success; b2c_4762userbuy=7a2dZo7f1WZj7nN2Z4g28lwTri9ga7vG37twTBeBQQ
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: document
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+</request>
+  <sencondRequest />
+  <key />
+  <injectHTTPCode>0</injectHTTPCode>
+  <db_encoding>UTF-8</db_encoding>
+  <useCode>false</useCode>
+  <columnsCount>0</columnsCount>
+  <unionFillTemplate />
+  <sencondInject>false</sencondInject>
+  <showColumn>0</showColumn>
+  <reverseKey>false</reverseKey>
+  <keyType>Key</keyType>
+  <isMuStr>true</isMuStr>
+  <is_foward_302>false</is_foward_302>
+  <isOpenInfoLog>true</isOpenInfoLog>
+  <isOpenHTTPLog>true</isOpenHTTPLog>
+  <isAutoCheckUpdate>true</isAutoCheckUpdate>
+  <isSavaConfigWhenClose>true</isSavaConfigWhenClose>
+  <useSSL>false</useSSL>
+  <isOpenURLEncoding>true</isOpenURLEncoding>
+  <redirectDoGet>false</redirectDoGet>
+  <maxClolumns>50</maxClolumns>
+  <urlencodeCount>1</urlencodeCount>
+  <unionFill>1</unionFill>
+  <token_request />
+  <token_startStr />
+  <token_endStr />
+  <readFileEncoding>GBK</readFileEncoding>
+  <showCmdResult>true</showCmdResult>
+  <reaplaceBeforURLEncode>true</reaplaceBeforURLEncode>
+  <inculdeStr>false</inculdeStr>
+  <keyReplace>0</keyReplace>
+  <randIPToHeader />
+  <sendHTTPSleepTime>0</sendHTTPSleepTime>
+  <replaceStrs />
+  <base64Count>0</base64Count>
+  <useBetweenByPass>false</useBetweenByPass>
+  <usehex>false</usehex>
+  <useUnicode>false</useUnicode>
+  <retryKey />
+  <level>0</level>
+  <linkCount>1</linkCount>
+  <maxSpiderCount>10</maxSpiderCount>
+  <maxScanCount>10</maxScanCount>
+  <proxy_mode>0</proxy_mode>
+  <proxy_check_host>www.baidu.com</proxy_check_host>
+  <proxy_check_port>80</proxy_check_port>
+  <proxy_check_Keys>百度一下，你就知道</proxy_check_Keys>
+</Config>
